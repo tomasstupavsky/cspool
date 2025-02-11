@@ -16,7 +16,7 @@ export async function getRides(): Promise<Ride[]> {
 function mapRide(data: DocumentData): Ride {
   return {
     _id: data._id,
-    date: data.date,
+    date: data.date.toDate(),
     from: data.from,
     to: data.to,
     via: data.via,

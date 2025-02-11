@@ -8,7 +8,7 @@ export interface Ride {
   price_euro: number;
   passenger_ids: number[];
   driver_id: number;
-  date: Timestamp;
+  date: Date;
 }
 
 export interface User {
