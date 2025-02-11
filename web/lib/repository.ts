@@ -20,8 +20,10 @@ function mapRide(data: DocumentData): Ride {
     from: data.from,
     to: data.to,
     via: data.via,
-    price_euro: data.price_euro,
+    price: data.price,
+    price_unit: data.price_unit,
     driver_id: data.driver_id,
     passenger_ids: data.passenger_ids,
+    passenger_capacity: data.passenger_capacity,
   };
 }

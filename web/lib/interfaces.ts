@@ -5,8 +5,10 @@ export interface Ride {
   from: string;
   to: string;
   via: string;
-  price_euro: number;
+  price: number;
+  price_unit: string;
   passenger_ids: number[];
+  passenger_capacity: number;
   driver_id: number;
   date: Date;
 }
