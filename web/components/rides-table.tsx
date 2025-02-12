@@ -23,7 +23,7 @@ const RidesTable: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="inline-block max-w-3xl text-justify-center">
       <div>
         <h1>Zoznam jázd na február - únor</h1>
       </div>
